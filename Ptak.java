@@ -1,7 +1,7 @@
 public class Ptak extends AbstraktZwierze {
     private double predkosc;
 
-    public Ptak(String nazwa, int wiek, double rozpietoscSkrzydel) {
+    public Ptak(String nazwa, int wiek, double predkosc) {
         super(nazwa, wiek);
         this.predkosc = predkosc;
     }

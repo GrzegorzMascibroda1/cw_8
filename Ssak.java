@@ -1,7 +1,7 @@
 public class Ssak extends AbstraktZwierze {
     private String Kontynet;
 
-    public Ssak(String nazwa, int wiek, String typFutra) {
+    public Ssak(String nazwa, int wiek, String Kontynet) {
         super(nazwa, wiek);
         this.Kontynet = Kontynet;
     }
